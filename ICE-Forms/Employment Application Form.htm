@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Employment Application Form</title>
+		<!-- bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/bootstrap-form-helpers.min.css" rel="stylesheet">
+		<link href="form-style.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<h2 id="title"> Your Dream Job Starts Here... </h2>
+		<ul>
+			<li>Tim Decloniemaclennan</li>
+			<li>Anndo Ko</li>
+			<li>Guanchao Huang</li>
+			<li>Pallavi Benawri</li>
+		</ul>
+		<form name="application" action="" method="post">
+
+
+		<!-- BASIC INFORMATION -->
+		<h4><u>Basic Information</u></h4>
+    <fieldset>
+			<div class="form-group">
+				<legend>Account Information</legend>
+
+				<div class="form-inline">
+					<div class="form-group mb-2">
+						<label> First name<input id="name" name="name" type="text" placeholder="First name" required autofocus></label><br>
+					</div>
+					<div class="form-group mx-sm-3 mb-2">
+						<label for="lname"> Last name <input id="name" name="lname" type="text" placeholder="Last name" required autofocus></label><br>
+					</div>
+				</div>
+
+		  	<label> Email <input type="email" name="email" placeholder = "iyad@umich.edu"></label><br>
+
+				<div class="form-inline">
+					<div class="form-group mb-2">
+						<label> Password <input type="password" id="pass1" name="password1" placeholder="Password" required autofocus></label><br>
+					</div>
+					<div class="form-group mx-sm-3 mb-2">
+			  		<label> Confirm Password *<input type="password" id="pass2" name="password2" onchange="validatePass(this)" placeholder="Password" required autofocus></label><br>
+					</div>
+				</div>
+			</div>
+		</fieldset>
+
+		<fieldset>
+			<div class="form-group">
+				<legend>Contact Information</legend>
+				<label>Phone number<input type="text" class="form-control bfh-phone" data-format="+1 (ddd) ddd-dddd"></label><br>
+				<label>Country of Citizenship
+				<select id="country" class="bfh-countries form-control form-control-sm" data-country="US" required></select></label><br>
+				<label> Address <input type="text" id="address" name="address" placeholder = "1234 N Wells St" required autofocus></label><br>
+				<label> City <input type="text" name="city"  placeholder = "Ann Arbor" required autofocus></label><br>
+				<label> State <input type="text" name="state"  placeholder = "MI" required autofocus></label><br>
+				<label> Zip code <input type="text" name="Zip code"  placeholder = "48108" required autofocus></label><br>
+			</div>
+		</fieldset>
+
+		<!-- EDUCATION AND WORK EXPERIENCE -->
+    <h4><u>Education and Work Experience</u></h4>
+    <fieldset>
+			<div class="form-group">
+			<legend>Educational Information</legend>
+
+
+				<label> Degree
+				  <select class="form-control form-control-sm" name="degree">
+						<option value="High school">High school</option>
+						<option value="BS">B.S</option>
+						<option value="BA">B.A</option>
+						<option value="Meng">M.Eng</option>
+						<option value="MA">M.A</option>
+						<option value="MS">M.S</option>
+						<option value="PhD">PhD</option>
+				  </select>
+				</label><br>
+
+			  <label> Institution name <input type="text" name="inst_name" placeholder = "University of Michigan"></label><br>
+
+			  <label> Major <input type="text" name="Major" placeholder = "Information System"></label><br>
+
+			  <label> GPA <input type="number" step="any" name="GPA" min="0" max="4"></label> /4.0<br>
+
+				<button id="addDegree"> Add Degree </button>
+			</div>
+		</fieldset>
+
+		<fieldset>
+			<div class="form-group">
+				<legend>Work Experience</legend>
+				<div id="work">
+					<label>Company Name <input type="text" name="name" placeholder="Google"></label><br>
+					<label>Job Title <input type="text" name="title" placeholder="Software Engineer"></label><br>
+					<label>Join Date <input type="date" name="joindate"></label>
+					<label>End Date <input type="date" name="enddate"></label><br>
+				</div>
+				<button id="addWork">Add Employer</button>
+			</div>
+		</fieldset>
+
+
+		<!-- EDUCATION AND WORK EXPERIENCE -->
+    <h4><u>Position</u></h4>
+
+    <fieldset>
+			<div class="form-group">
+				<legend>Type of Work</legend>
+				What are you interested in applying for<br>
+					<label><input type="checkbox" name="position" value="internship"> Internship</label>
+					<label><input type="checkbox" name="position" value="full-time"> Full-time</label>
+					<label><input type="checkbox" name="position" value="part-time"> Part-time</label>
+			</div>
+		</fieldset>
+
+		<fieldset>
+			<div class="form-group">
+				<legend>Resume/Cover Letter</legend>
+
+				<label>Upload Resume *</label>
+				<input class="form-control form-control-sm" type="file" name="resume" accept="application/pdf">
+
+				<label>Upload Cover Letter</label>
+				<input class="form-control form-control-sm" type="file" name="coverletter" accept="application/pdf">
+
+			</div>
+		</fieldset>
+
+		<fieldset>
+			<div class="form-group">
+				<legend>Position</legend>
+				<label>Which position are you interested in applying
+				<select class="form-control form-control-sm" name="position">
+					<optgroup label="Information Technology">
+						<option>Network Engineer</option>
+					</optgroup>
+					<optgroup label="Finance">
+						<option>Financial Analyst</option>
+					</optgroup>
+					<optgroup label="Software Development">
+						<option>Project Manager</option>
+					</optgroup>
+					<optgroup label="Legal">
+						<option>Attorney</option>
+					</optgroup>
+					<optgroup label="Human Resources">
+						<option>Coordinator</option>
+					</optgroup>
+					<optgroup label="Research">
+						<option>Research Associate</option>
+					</optgroup>
+					<optgroup label="Transport">
+						<option>Driver</option>
+					</optgroup>
+				</select></label><br>
+
+				<label>Office Location
+				<input list="locations" name="locations">
+				<datalist id="locations">
+				  <option value="New York">
+					<option value="San Francisco">
+					<option value="Detroit">
+					<option value="Ann Arbor">
+					<option value="Chicago">
+					<option value="Pittsburgh">
+				</datalist></label><br>
+
+
+				<label>Expected Start Date <input type="date" name="startdate"></label>
+
+
+
+
+				<div class="form-inline">
+					<label>Expected Salary $
+					<div class="form-group mb-2">
+						<input type="range" name="salary" min="40" max="200" step="5" value="100" id="myRange"></label><br/><span id="salary"></span>
+					</div>
+					<div class="form-group mx-sm-3 mb-2">
+						<p>Value <span id="demo"></span></p>
+					</div>
+				</div>
+
+				<label>Personal Website/Portfolio <input type="url" name="website" placeholder="www.mywebsite.com"></label>
+			</div>
+		</fieldset>
+
+
+	<input class="col-sm-offset-5" type="submit" value = "Apply">
+
+	</form>
+
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-formhelpers.min.js"></script>
+		<script>
+			var slider = document.getElementById("myRange");
+			var output = document.getElementById("demo");
+			output.innerHTML = slider.value; // Display the default slider value
+			// Update the current slider value (each time you drag the slider handle)
+			slider.oninput = function() {
+			output.innerHTML = this.value;
+		}
+		</script>
+		<script type="text/javascript">
+		        $(document).ready(function(){
+		            $('#pass2').focusout(function(){
+		            var pass = $('#pass1').val();
+		            var pass2 = $('#pass2').val();
+		            if(pass != pass2){
+		                alert('The passwords didn\'t match!');
+		        }
+		    });
+		});
+		</script>
+	</body>
+</html>
