@@ -1,0 +1,54 @@
+// Variable Overrides 
+$theme-colors: (
+  "primary":  #000000
+);
+
+$body-bg: #ededed;
+
+.jumbotron {
+    background-color: #ffffff !important;
+    border-top: 3px solid rgb(219, 219, 219);
+}
+
+// To change the hover state of the card
+.card-text{
+	color:grey;
+}
+
+// .card-body{
+// 	height:15rem;
+// 	background-color:#ffffff
+// }
+
+.card:hover{
+	.card-img-top{height:0px;}
+	.card-text{color:black;}
+	.card-body{
+		height:23rem;
+		background-color:black;
+	}
+	.card-body .card-title{
+		color:white;
+	}
+	.card-body .card-text{
+		color:white;
+	}
+	.card-body .text-muted{
+		visibility:hidden
+	}
+}
+
+.footer {
+  width: 100%;
+  background-color:lightgrey;
+  height: 60px;
+}
+
+.footer a{
+	position: relative; 
+  	padding:30px;
+
+}
+
+// Bootstrap Sass Imports
+@import "node_modules/bootstrap/scss/bootstrap";

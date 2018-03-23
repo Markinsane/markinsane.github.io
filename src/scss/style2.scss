@@ -1,0 +1,42 @@
+.card-img-top{
+    border-radius: 0.8rem !important;
+}
+
+.card {
+  border-radius: 0.8rem !important; }
+
+// Variable Overrides 
+$theme-colors: (
+  "primary":  #000000
+);
+
+$body-bg: #ededed;
+
+.jumbotron {
+    background-color: #ffffff !important;
+    border-top: 3px solid rgb(219, 219, 219);
+}
+
+
+// To change the hover state of the card
+.card-text{
+	color:grey;
+}
+
+// .card-body{
+// 	height:15rem;
+// 	background-color:#ffffff
+// }
+
+
+.card:hover{
+	border-radius: 0.8rem !important;
+	// transform: scale(1.02);
+    box-shadow: 0 13px 5px rgba(0,0,0,0.40), 0 2px 13px rgba(0,0,0,0.22);
+	
+}
+
+
+
+// Bootstrap Sass Imports
+@import "node_modules/bootstrap/scss/bootstrap";
