@@ -5,6 +5,14 @@ $theme-colors: (
 
 $body-bg: #ededed;
 
+.card-img-top{
+   border-top-left-radius:: 0.8rem !important;
+   border-top-right-radius:: 0.8rem !important;
+}
+
+.card {
+  border-radius: 0.8rem !important; }
+
 .jumbotron {
     background-color: #ffffff !important;
     border-top: 3px solid rgb(219, 219, 219);
@@ -21,21 +29,28 @@ $body-bg: #ededed;
 // }
 
 .card:hover{
-	.card-img-top{height:0px;}
+	// .card-img-top{height:0px;}
 	.card-text{color:black;}
 	.card-body{
-		height:23rem;
+		border-bottom-left-radius:: 0.8rem !important;
+   		border-bottom-right-radius:: 0.8rem !important;
+		// height:23rem;
 		background-color:black;
 	}
 	.card-body .card-title{
+		transition-duration: 0.8s;
 		color:white;
 	}
 	.card-body .card-text{
+		
 		color:white;
 	}
 	.card-body .text-muted{
 		visibility:hidden
 	}
+	transition-duration: 0.5s;
+	transform: scale(1.06)!important;
+    box-shadow: 0 13px 20px rgba(0,0,0,0.40), 0 12px 12px rgba(0,0,0,0.22);
 }
 
 .footer {

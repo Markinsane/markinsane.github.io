@@ -1,3 +1,9 @@
+.card-img-top {
+  border-radius: 0.8rem !important; }
+
+.card {
+  border-radius: 0.8rem !important; }
+
 .jumbotron {
   background-color: #ffffff !important;
   border-top: 3px solid #dbdbdb; }
@@ -5,33 +11,11 @@
 .card-text {
   color: grey; }
 
-.card:hover .card-img-top {
-  height: 0px; }
-
-.card:hover .card-text {
-  color: black; }
-
-.card:hover .card-body {
-  height: 23rem;
-  background-color: black; }
-
-.card:hover .card-body .card-title {
-  color: white; }
-
-.card:hover .card-body .card-text {
-  color: white; }
-
-.card:hover .card-body .text-muted {
-  visibility: hidden; }
-
-.footer {
-  width: 100%;
-  background-color: lightgrey;
-  height: 60px; }
-
-.footer a {
-  position: relative;
-  padding: 30px; }
+.card:hover {
+  border-radius: 0.8rem !important;
+  transition-duration: 0.5s;
+  transform: scale(1.015) !important;
+  box-shadow: 0 13px 5px rgba(0, 0, 0, 0.4), 0 2px 13px rgba(0, 0, 0, 0.22); }
 
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)

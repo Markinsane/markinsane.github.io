@@ -31,7 +31,9 @@ $body-bg: #ededed;
 
 .card:hover{
 	border-radius: 0.8rem !important;
+	transition-duration: 0.5s;
 	// transform: scale(1.02);
+	transform: scale(1.015)!important;
     box-shadow: 0 13px 5px rgba(0,0,0,0.40), 0 2px 13px rgba(0,0,0,0.22);
 	
 }

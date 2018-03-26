@@ -1,0 +1,59 @@
+$theme-colors: (
+  "primary": #282828
+);
+
+$body-bg: #F8F8F8;
+
+// .intro{
+	
+// 	height: 40px;
+// }
+
+
+.mt-md-0, .my-md-0{
+	background-color: #F8F8F8!important;
+}
+
+h1{  
+    font-family: roboto!important;
+    color: white!important;
+	padding-bottom:30px;
+	text-align:center;
+	color:red;
+	font-size: 2rem !important;
+}
+
+.wrapper{
+
+	background-color: black;
+}
+
+svg{
+
+	text-align:center;
+	position:relative;
+	width:150px;
+	height:150px;
+}
+
+
+.top_square:hover {
+	transition-duration: 0.5s;
+	opacity: 0.5!important;
+	transform: rotate(20deg) !important;
+}
+
+
+
+.logo{
+	padding-top:100px;
+
+	text-align:center!important;
+
+}
+
+/////////
+
+
+// Bootstrap Sass Imports
+@import "node_modules/bootstrap/scss/bootstrap";
