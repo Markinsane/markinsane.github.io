@@ -11,6 +11,11 @@
 .card-text {
   color: grey; }
 
+.btn-primary {
+  color: #fff !important;
+  background-color: #9e9e9e !important;
+  border-color: #000000 !important; }
+
 .card:hover {
   border-radius: 0.8rem !important;
   transition-duration: 0.5s;

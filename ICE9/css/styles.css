@@ -1,9 +1,11 @@
-.card-img-top {
+.card .card-img-top {
   border-top-left-radius: 0.8rem !important;
-  border-top-right-radius: 0.8rem !important; }
+  border-top-right-radius: 0.8rem !important; 
+  max-width: 100%;}
 
 .card {
-  border-radius: 0.8rem !important; }
+  border-radius: 0.8rem !important; 
+  overflow: hidden;}
 
 .jumbotron {
   background-color: #ffffff !important;
@@ -16,19 +18,24 @@
   transition-duration: 0.5s;
   transform: scale(1.06) !important;
   box-shadow: 0 13px 20px rgba(0, 0, 0, 0.4), 0 12px 12px rgba(0, 0, 0, 0.22); }
-  .card:hover .card-text {
-    color: black; }
-  .card:hover .card-body {
-    border-bottom-left-radius: 0.8rem !important;
-    border-bottom-right-radius: 0.8rem !important;
-    background-color: black; }
-  .card:hover .card-body .card-title {
-    transition-duration: 0.8s;
-    color: white; }
-  .card:hover .card-body .card-text {
-    color: white; }
-  .card:hover .card-body .text-muted {
-    visibility: hidden; }
+
+.card:hover .card-text {
+  color: black; }
+.card:hover .card-body {
+  border-bottom-left-radius: 0.8rem !important;
+  border-bottom-right-radius: 0.8rem !important;
+  background-color: black;
+  z-index: 1;}
+.card:hover .card-img-top{
+  transition-duration: 0.8s;
+  transform: scale(1.3);}
+.card:hover .card-body .card-title {
+  transition-duration: 0.8s;
+  color: white; }
+.card:hover .card-body .card-text {
+  color: white; }
+.card:hover .card-body .text-muted {
+  visibility: hidden; }
 
 .footer {
   width: 100%;
@@ -38,6 +45,23 @@
 .footer a {
   position: relative;
   padding: 30px; }
+
+.btn-primary {
+color: grey!important;
+background-color: lightgrey !important;
+border-color: #ededed !important;
+}
+
+.btn-primary:hover {
+color: #fff !important;
+background-color: black !important;
+border-color: black!important;
+}
+
+/*.buttonAA{
+ align-items: center; 
+ margin-left: 2em;
+ justify-content: center;}*/
 
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)

@@ -75,12 +75,19 @@
             </nav>
             </div>
 
-
+                <div class="wrapper mb-5">
+                <div class="row">
+                <button type="button" class="btn btn-primary control btn-sm col-12 col-sm-6 col-md-3 " data-filter="all">All Projects</button>
+                <button type="button" class="btn btn-primary control btn-sm col-12 col-sm-6 col-md-3 " data-filter=".category-a">Experience Design</button>
+                <button type="button" class="btn btn-primary control btn-sm col-12 col-sm-6 col-md-3 " data-filter=".category-b">Graphic Design</button>
+                <button type="button" class="btn btn-primary control btn-sm col-12 col-sm-6 col-md-3 " data-filter=".category-c">Interaction Design</button>
+                </div>
+                </div>
 
     
-                <div class="container">
+                <div class="container ab">
                 <div class="row">
-                    <div class="col-sm-12 col-md-4">
+                    <div class="col-12 col-sm-6 col-md-4  mix category-a">
                      <a href="project2.html"> 
                         <div class="card mb-4">
                             <img class="card-img-top" src="assets/card.jpg" alt="Card image cap">
@@ -92,9 +99,10 @@
                           </div>
                       </a>
                     </div>
-                    <div class="col-sm-6 col-md-4">
-                        <div class="card mb-4">
+
+                    <div class="col-12 col-sm-6 col-md-4 mix category-c">
                         <a href="project1.html">
+                            <div class="card mb-4">
                             <img class="card-img-top" src="assets/c3.jpg" alt="Card image cap">
                             <div class="card-body">
                               <h5 class="card-title">Card Two</h5>
@@ -102,12 +110,13 @@
                               <p class="card-text"><small class="text-muted">MagicMark</small></p>
                               
                             </div>
-                           </a>
-                          </div>
+                            </div>
+                           </a>     
                     </div>
-                    <div class="col-sm-6 col-md-4">
-                        <div class="card mb-4">
+
+                    <div class="col-12 col-sm-6 col-md-4 mix category-a">
                         <a href="project3.html">
+                          <div class="card mb-4">
                             <img class="card-img-top" src="assets/card.jpg" alt="Card image cap">
                             <div class="card-body">
                               <h5 class="card-title">Card Three</h5>
@@ -115,10 +124,11 @@
                               <p class="card-text"><small class="text-muted">MagicMark</small></p>
                               
                             </div>
-                           </a>
-                          </div>
+                            </div>
+                           </a>    
                     </div>
-                    <div class="ol-sm-12 col-md-4">
+                    
+                    <div class="col-12 col-sm-6 col-md-4 mix category-b">
                         <div class="card mb-4">
                             <img class="card-img-top" src="assets/card.jpg" alt="Card image cap">
                             <div class="card-body">
@@ -128,7 +138,7 @@
                             </div>
                           </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-12 col-sm-6 col-md-4 mix category-b">
                         <div class="card mb-4">
                             <img class="card-img-top" src="assets/card.jpg" alt="Card image cap">
                             <div class="card-body">
@@ -138,7 +148,7 @@
                             </div>
                           </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-12 col-sm-6 col-md-4 mix category-c">
                         <div class="card mb-4">
                             <img class="card-img-top" src="assets/card.jpg" alt="Card image cap">
                             <div class="card-body">
@@ -147,10 +157,10 @@
                               <p class="card-text"><small class="text-muted">MagicMark</small></p>
                             </div>
                           </div>
-                </div>
-                </div>
+                  </div>
+          
 
-                <div class="container-fluid mb-5">    
+                <div class="container-fluid mb-5 mix category-d">    
                     <footer class="footer">
                       <div class="container center">
                         <div class="row justify-content-center">
@@ -167,5 +177,11 @@
         <script src="js/bootstrap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
         <script src="js/main.js"></script>
+        <script src="js/mixitup.min.js"></script>
+        <script>
+        var containerEl = document.querySelector(".ab");
+        var mixer=mixitup(containerEl);      
+        </script>
+
     </body>
 </html>
