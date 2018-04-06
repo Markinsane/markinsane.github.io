@@ -1,5 +1,5 @@
 .navbar {
-  background-image: url("assets/logo.png");
+  background-image: url("assets/logo.png")!important;
   background-repeat: no-repeat;
   background-size: 5vh;
   background-position: 20px 5px; }
