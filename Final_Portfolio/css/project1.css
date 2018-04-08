@@ -3,6 +3,10 @@ body{
   overflow:hidden;
 }
 
+#Projects { 
+  color:white!important;
+}
+
 html, body, #mySVG {
 font-family: Signika Negative, Asap, sans-serif;
 color:white;
