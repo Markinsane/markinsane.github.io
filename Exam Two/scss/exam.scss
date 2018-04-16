@@ -1,0 +1,77 @@
+
+
+
+// @media only screen and (max-width: 600px) {
+//     body {
+//         background-color: lightblue !important;
+//     }
+// }
+
+// .navbar {
+//   background-image: url("../assets/logo.png");
+//   background-repeat: no-repeat;
+//   background-size: 40px;
+//   background-position: 20px 5px;
+//   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.12), 0 2px 5px rgba(0, 0, 0, 0.12); }
+
+// .navbar .navbar-brand {
+//   margin-left: 50px; }
+
+
+// .card {
+//   border-radius: 0.8rem !important;
+//   overflow: hidden;}
+
+// .footer {
+//   width: 100%;
+//   background-color: lightblue;
+//   height: 80px; }
+
+// .footer a {
+//   position: relative;
+//   padding: 25px;
+//   color: white; }
+
+// .haha{
+// 	display: block;
+//     margin-left: auto;
+//     margin-right: auto;
+//     width: 80%!important;
+// }
+
+// .container_2{   
+
+// 	margin-top:50px;
+// }
+
+
+// .sub_container_1{
+// 	display: block;
+//     margin-left: auto;
+//     margin-right: auto;
+//     width: 80%!important;
+// }
+body {
+   background-image: url("../images/sun-pattern.png");
+   background-repeat: repeat;
+   // background-size: 40px;
+   z-index:1
+}
+
+.container_1{
+	width:50%!important;
+	 border-style: solid;
+    border-width: 5px;
+    border-color: blue;
+    padding: 5% !important;
+}
+
+.image {
+	width:100%!important;
+}
+
+.intro{
+	margin:auto!important;
+}
+@import "node_modules/bootstrap/scss/bootstrap";
+

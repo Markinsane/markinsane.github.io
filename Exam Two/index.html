@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <title>MagicMark</title>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/exam.css">
+    </head>
+
+      <body>
+
+
+
+              <h1 class="title">Guanchao Huang</h1>
+              <div class="row picture_row">
+              <div class="container_1 col-6"  id="first_image">
+                <img class="image" src="images/examPic.jpg"  alt="Project2 Image">
+              </div>
+
+               <div class="container_1  second col-6" id="second_image">
+                <img class="image" src="images/UMSI-logo.jpg" alt="Project2 Image">
+              </div>
+               </div>
+
+
+              <div class="button mt-5">
+              <button class="btn btn-primary mr-5" id="hide">Hide</button> 
+              <button class="btn btn-primary" id="show">Show</button> 
+              </div>
+
+                
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+        <script>
+
+          $(document).ready(function () { $("#hide").click(function(){
+              $("#first_image").hide(1000);
+              $("#second_image").addClass("intro");
+          
+          });
+
+          $("#show").click(function(){
+              $("#first_image").show(1000);
+          
+          });
+
+          });
+          
+
+        </script>
+    </body>
+</html>
