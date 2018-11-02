@@ -20,8 +20,8 @@ $(document).ready(function() {
 
 
 function visulizeMap(mydata){
-  var w = 1200; 
-  var h = 780;  
+  var w = 900; 
+  var h = 580;  
 
   var projection = d3.geoAlbersUsa()
 
