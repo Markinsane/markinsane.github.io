@@ -51,7 +51,7 @@ function visulizeMap(mydata){
       .attr('d', path)
    
        
-    // create the zoom effect
+    // zoom effect
     var zoom = d3.zoom()
       .on("zoom", function() {
         g.attr("transform", d3.event.transform);
@@ -108,7 +108,7 @@ function visulizeMap(mydata){
       
     
 
-      //Add Event Listeners | mouseover
+      //mouseover
 
 
 
@@ -140,7 +140,7 @@ function visulizeMap(mydata){
 
 
  function loadData(){
-  d3.json('data/ufo_sighting.json', function(error, data) {
+  d3.json('data/UFO Sighting.json', function(error, data) {
       if (error) 
         console.error(error);
 
