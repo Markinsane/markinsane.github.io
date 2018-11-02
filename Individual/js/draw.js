@@ -140,7 +140,7 @@ function visulizeMap(mydata){
 
 
  function loadData(){
-  d3.json('/data/UFO Sighting.json', function(error, data) {
+  d3.json('/data/ufo_sighting.json', function(error, data) {
       if (error) 
         console.error(error);
 
