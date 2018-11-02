@@ -140,12 +140,12 @@ function visulizeMap(mydata){
 
 
  function loadData(){
-  d3.json('/data/ufo_sighting.json', function(error, data) {
+  d3.json('data/ufo_sighting.json', function(error, data) {
       if (error) 
         console.error(error);
 
         loadedData = data
-        
+
         console.log(data)
           
         console.log(loadedData)
