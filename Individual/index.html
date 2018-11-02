@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Demographics</title>
+<!--     <link rel="stylesheet" href="css/skeleton.css" />
+    <link rel="stylesheet" href="css/normalize.css" /> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="//d3js.org/d3.v4.min.js"></script>
+    <script src="//d3js.org/topojson.v1.min.js"></script>
+    <script type="text/javascript" src="js/draw.js"></script>
+
+
+
+
+
+
+   
+
+
+
+ <header class="py-5 bg-image-full" style="background-image: url('https://media2.s-nbcnews.com/j/newscms/2018_01/2280531/180103-ufo-illustration-mn-1015_0758c11fb1637ed3431613cef06cd246.fit-2000w.jpg'); height: 600px;">
+
+      <h1 class="display-4 text-white">UFO SIGHTING IN THE US FROM 2004 TO 2013</h1>
+       <p class="lead text-white">A complete visulization that try to reveal the pattern of UFO sighting</p>
+<!--       <img class="img-fluid d-block mx-auto" src="http://placehold.it/200x200&text=Logo" alt=""> -->
+    </header>
+
+
+
+
+
+ <div class="jumbotron">
+      <h1 class="">Introduction</h1>
+      <p class="lead">A complete visulization that try to reveal the pattern of UFO sighting</p>
+      <hr ">
+      <p class="col-lg-8 mx-auto text-black-70">In the vast outer space, the possibility of having intellectual lifes is highly possible. Being an UFO enthusiasts,  evidence of intelligent life coming to Earth could be the greatest news of all time.</p>
+
+       <p class="col-lg-8 mx-auto text-black-70">As more and more UFO are being sighted in the US, it would be interesting to show the general spatial distribution and the trend of reported sightings in the past </p>
+
+       <p class="col-lg-8 mx-auto text-black-70">The visualization uses geo mapping along with other supplementary bar chart and linear diagram to aid people in identifying some of the interesting pattern in the past among UFO sightings, and also predict the approximate trend the future.
+ </p>
+     <!--  <a class="btn btn-primary btn-lg" href="#" role="button">See Visulization</a> -->
+    </div>
+
+
+
+   <section id="about" class="about-section text-center col-lg-12 mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class=" text-black mb-4 ">A Geo Mapping of All the Reported Sightings from 2004 to 2013</h2>
+            <p class="text-black-50">A map view of the spatial distribution of all the reported sighting from 2004 to 2013
+              <a href="">the preview page</a>. You could zoom in and out to have a detailed view of the spatial distribution, You could also use the drop down to select a specific year to see the reported sighting for that year 
+            </p>
+          </div>
+        </div>
+<!--         <img src="img/ufo.jpeg" width="1200p" class="img-fluid" alt=""> -->
+      </div>
+    </section>
+<!-- 
+
+        <div class="slidecontainer">
+          <input type="range" min="1994" max="2004" value="1994" class="slider" id="myRange">
+        </div>
+ -->
+<!-- 
+        <div class="btn-group">
+          <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Reported Year
+          </button> -->
+
+
+
+
+
+      <div>
+          <!--     <li class="nav-item"> -->
+
+             <p class="text-black-100">SELECT A YEAR </p>
+            <div class="select align-items-center justify-content-center">
+
+                <select   name="slct" id="mydropdown"  onchange="getValue()">
+                  <option value="all">All Record</option>
+                  <option value="04" >2004</option>
+                  <option value="05" >2005</option>
+                  <option value="06" >2006</option>
+                  <option value="07" >2007</option>
+                  <option value="08" >2008</option>
+                  <option value="09" >2009</option>
+                  <option value="10">2010</option>
+                   <option value="11">2011</option>
+                  <option value="12">2012</option>
+                  <option value="13">2013</option>
+             <!--      <option value="14">14</option> -->
+                 
+                </select>
+             </div>
+
+     </div>
+        
+    </section>
+
+ <!--        <script>
+            $(document).ready(function () {
+                $("#mydropdown").change(function () {
+                    var color = $(this);
+                    console.log(color.val()); 
+                });
+            });
+        </script> -->
+ <section id="about" class="col-lg-12 mx-auto">
+
+        <div id="map"></div>
+
+    </section>
+
+
+    <section id="about" class="about-section text-center col-lg-12 mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="text-black mb-4 ">Total Number of Sightings in Each State from 2004 t9 2013</h2>
+            <p class="text-black-50">As you could probably infer from this bar chart, states like California, Florida, Washington and Texas has a lot of reported sightings 
+              <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>.You could refer to this article to know more</p>
+          </div>
+        </div>
+        <img src="img/barchart.jpeg" width="1200p" class="img-fluid" alt="">
+      </div>
+    </section>
+
+
+        <div id="tooltip">
+            Date and time: <span id="datetime" class="info"></span><br> 
+            City: <span id="city" class="info"></span><br>
+            Shape: <span id="shape" class="info"></span><br> 
+            Duration: <span id="duration" class="info"></span><br>  
+            Comments: <span id="comments" class="info"></span><br>  
+     
+        </div>
+
+
+ <div class="jumbotron mt-5">
+      <h1 class="">Let's Delve Deeper into the Trend</h1>
+      <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+      <hr ">
+      <p class="col-lg-8 mx-auto text-black-70">On February 22 (or March 24) in 1803 local fishermen reportedly saw a vessel drifting in close-by waters. They say when they investigated it, "a beautiful young woman" they described as having red and white hair and dressed in strange clothes appeared. The fisherman claim she held a square box "that no one was allowed to touch" and she spoke to them in a language they never heard before. Modern UFO believers think this story was a credible document of a close encounter of the third kind in early Japan. Historians and Ethnologists consider it to be folklore. </p>
+     <!--  <a class="btn btn-primary btn-lg" href="#" role="button">See Visulization</a> -->
+    </div>
+
+
+
+    <section id="about" class="about-section text-center col-lg-12 mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="text-black mb-4 ">Top 10 States that Have the most sightings</h2>
+            <p class="text-black-50">Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
+              <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
+          </div>
+
+    </section>
+
+         <div id="charts"></div>
+
+        <div id="chart"></div>
+
+
+
+
+
+</body>
+
+</html>
+
