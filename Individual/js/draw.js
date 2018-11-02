@@ -145,8 +145,6 @@ function visulizeMap(mydata){
         console.error(error);
 
         loadedData = data
-
-        console.log(data)
           
         console.log(loadedData)
 
