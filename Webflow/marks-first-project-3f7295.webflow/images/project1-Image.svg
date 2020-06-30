@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1140px" height="1437px" viewBox="0 0 1140 1437" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 13</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="132.06773%" y1="107.154089%" x2="-866.016337%" y2="-164.114452%" id="linearGradient-1">
+            <stop stop-color="#5F41DD" offset="0%"></stop>
+            <stop stop-color="#4C84FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="85.315027%" x2="-13.7570908%" y2="-92.7923982%" id="linearGradient-2">
+            <stop stop-color="#5F41DD" offset="0%"></stop>
+            <stop stop-color="#4C84FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="73.9076966%" x2="-144.35738%" y2="14.5814173%" id="linearGradient-3">
+            <stop stop-color="#5F41DD" offset="0%"></stop>
+            <stop stop-color="#4C84FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="281.251519%" y1="50%" x2="-1228.96057%" y2="-278.891567%" id="linearGradient-4">
+            <stop stop-color="#5F41DD" offset="0%"></stop>
+            <stop stop-color="#4C84FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-13">
+            <polygon id="Combined-Shape" fill="url(#linearGradient-1)" points="0 667.192982 72 625 72 820 0 777.807018 0 667.192982"></polygon>
+            <polygon id="Combined-Shape" fill="url(#linearGradient-2)" points="94 614.654971 235 532 235 914 94 831.345029 94 614.654971"></polygon>
+            <polygon id="Combined-Shape" fill="url(#linearGradient-3)" points="266 511.549708 542 351 542 1093 266 932.450292 266 511.549708"></polygon>
+            <polygon id="Combined-Shape" fill="url(#linearGradient-4)" points="606 310.929825 1140 0 1140 1437 606 1126.07018 606 310.929825"></polygon>
+        </g>
+    </g>
+</svg>

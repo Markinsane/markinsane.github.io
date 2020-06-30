@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1051px" height="724px" viewBox="0 0 1051 724" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 35</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-129.494329%" y1="27.503096%" x2="142.224625%" y2="51.9427314%" id="linearGradient-1">
+            <stop stop-color="#3023AE" offset="0%"></stop>
+            <stop stop-color="#C86DD7" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="0%" x2="223.94949%" y2="-135.441178%" id="linearGradient-2">
+            <stop stop-color="#3023AE" offset="0%"></stop>
+            <stop stop-color="#C86DD7" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="0%" x2="142.224625%" y2="51.9427314%" id="linearGradient-3">
+            <stop stop-color="#3023AE" offset="0%"></stop>
+            <stop stop-color="#C86DD7" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.4">
+        <g id="Group-35">
+            <polygon id="Rectangle" fill="url(#linearGradient-1)" points="746 165.873882 1050.03294 59 1050.03294 173.007962 746 277.445507"></polygon>
+            <polygon id="Rectangle" fill="url(#linearGradient-2)" points="32 461.927647 529.032942 312 529.032942 471.935667 32 618.445507"></polygon>
+            <polygon id="Rectangle" fill="url(#linearGradient-1)" points="194 111.766355 565.032942 2.13162821e-13 565.032942 119.22702 194 228.445507"></polygon>
+            <polygon id="Rectangle" fill="url(#linearGradient-1)" points="654 338.204205 859.887167 266 859.887167 343.024004 654 413.582214"></polygon>
+            <polygon id="Rectangle" fill="url(#linearGradient-3)" points="2.84217094e-14 666.591301 155 616.988475 155 676.481867 2.84217094e-14 723.582214"></polygon>
+        </g>
+    </g>
+</svg>
