@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="537px" height="818px" viewBox="0 0 537 818" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 13</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="129.085799%" y1="179.443554%" x2="0%" y2="75.9443912%" id="linearGradient-1">
+            <stop stop-color="#FAD961" offset="0%"></stop>
+            <stop stop-color="#F76B1C" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="87.7988874%" y1="47.7760775%" x2="-53.48603%" y2="138.122879%" id="linearGradient-2">
+            <stop stop-color="#FAD961" offset="0%"></stop>
+            <stop stop-color="#F76B1C" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="141.354501%" y1="50%" x2="6.44634317%" y2="96.5219319%" id="linearGradient-3">
+            <stop stop-color="#FAD961" offset="0%"></stop>
+            <stop stop-color="#F76B1C" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="32.5382535%" y1="-43.7171466%" x2="68.2742014%" y2="217.529076%" id="linearGradient-4">
+            <stop stop-color="#FAD961" offset="0%"></stop>
+            <stop stop-color="#F76B1C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-878.000000, -4540.000000)">
+            <g id="Group-13" transform="translate(878.000000, 4540.000000)">
+                <circle id="Oval" fill="url(#linearGradient-1)" cx="357.5" cy="179.5" r="179.5"></circle>
+                <circle id="Oval" fill-opacity="0.8" fill="url(#linearGradient-2)" cx="131.5" cy="313.5" r="131.5"></circle>
+                <circle id="Oval" fill-opacity="0.6" fill="url(#linearGradient-3)" cx="261" cy="388" r="57"></circle>
+                <circle id="Oval" fill-opacity="0.8" fill="url(#linearGradient-4)" cx="322" cy="650" r="168"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

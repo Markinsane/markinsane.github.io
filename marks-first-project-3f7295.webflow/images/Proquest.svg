@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="368px" height="798px" viewBox="0 0 368 798" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 15</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="80.2021114%" y1="50%" x2="30.1104438%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#4A0CDE" offset="0%"></stop>
+            <stop stop-color="#D10007" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="14.3198999%" y1="40.8632385%" x2="-12.3646938%" y2="134.561326%" id="linearGradient-2">
+            <stop stop-color="#4A0CDE" offset="0%"></stop>
+            <stop stop-color="#D10007" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="141.827317%" y1="39.2877719%" x2="0%" y2="84.5439576%" id="linearGradient-3">
+            <stop stop-color="#4A0CDE" offset="0%"></stop>
+            <stop stop-color="#D10007" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-1056.000000, -5431.000000)">
+            <g id="Group-15" transform="translate(1056.000000, 5431.000000)">
+                <g id="Group-11" transform="translate(23.000000, 0.000000)">
+                    <polygon id="Path-4" fill="url(#linearGradient-1)" points="0 21 23.1219512 0 60 0 35.1219512 21"></polygon>
+                    <polygon id="Path-5" fill="url(#linearGradient-2)" points="0 21 0 276 35 276 35 21"></polygon>
+                    <polygon id="Path-6" fill="url(#linearGradient-3)" points="35 20.4829391 59 0 57.6741565 247.55967 35 276"></polygon>
+                </g>
+                <g id="Group-11" transform="translate(269.000000, 138.000000)">
+                    <polygon id="Path-4" fill="url(#linearGradient-1)" points="0 35 38.1512195 0 99 0 57.9512195 35"></polygon>
+                    <polygon id="Path-5" fill="url(#linearGradient-2)" points="2 33 2 452 60 452 60 33"></polygon>
+                    <polygon id="Path-6" fill="url(#linearGradient-3)" points="59 33.6929505 99 0 96.7902608 407.217718 59 454"></polygon>
+                </g>
+                <g id="Group-11" transform="translate(0.000000, 666.000000)">
+                    <polygon id="Path-4" fill="url(#linearGradient-1)" points="0 10 11.1756098 0 29 0 16.9756098 10"></polygon>
+                    <polygon id="Path-5" fill="url(#linearGradient-2)" points="0 10.026654 0 132 17 132 17 10.026654"></polygon>
+                    <polygon id="Path-6" fill="url(#linearGradient-3)" points="17 9.87040181 29 0 28.3370783 119.295058 17 132.060456"></polygon>
+                </g>
+                <g id="Group-11" transform="translate(114.000000, 34.000000)">
+                    <polygon id="Path-4" fill="url(#linearGradient-1)" points="0 21 23.1219512 0 60 0 35.1219512 21"></polygon>
+                    <polygon id="Path-5" fill="url(#linearGradient-2)" points="1 20 1 573 36 573 36 20"></polygon>
+                    <polygon id="Path-6" fill="url(#linearGradient-3)" points="36 20.4829391 60 0 60 551.251296 36 573.256799"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

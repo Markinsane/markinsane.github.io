@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="733px" height="698px" viewBox="0 0 733 698" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="28.8368101%" y1="31.5475535%" x2="81.6842526%" y2="65.2514009%" id="linearGradient-1">
+            <stop stop-color="#764FA6" offset="0%"></stop>
+            <stop stop-color="#4C84FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="43.5411493%" y1="0%" x2="64.9059312%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#764FA6" offset="0%"></stop>
+            <stop stop-color="#4C84FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="13.4323149%" y1="15.900082%" x2="127.99948%" y2="39.6697574%" id="linearGradient-3">
+            <stop stop-color="#36F0DB" offset="0%"></stop>
+            <stop stop-color="#4C84FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" transform="translate(411.799134, 405.863988) rotate(-280.000000) translate(-411.799134, -405.863988) translate(68.299134, 20.863988)">
+            <circle id="Oval-7" fill="url(#linearGradient-1)" cx="371.5" cy="572.5" r="134.5"></circle>
+            <circle id="Oval-8" fill="url(#linearGradient-2)" opacity="0.667006341" cx="167" cy="668" r="102"></circle>
+            <polygon id="Triangle" fill="url(#linearGradient-3)" opacity="0.543931159" points="2.27373675e-13 0 686.01132 119.69392 167.256082 675.990805"></polygon>
+        </g>
+    </g>
+</svg>
